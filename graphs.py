@@ -2,11 +2,7 @@
 import csv
 from collections import defaultdict
 import matplotlib.pyplot as plt
-from math import log10
-import numpy as np
 import os
-from sklearn.preprocessing import StandardScaler
-from sklearn.linear_model import LinearRegression
 
 IMG_DIR = "img"
 FILES = ["results_fl_z1.csv", "results_cl_z1.csv", "results_cl_z2.csv"]
